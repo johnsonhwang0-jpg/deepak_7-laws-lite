@@ -2,11 +2,5 @@
   "buildCommand": "npm install && npm run build",
   "outputDirectory": "build",
   "devCommand": "vite",
-  "installCommand": "npm install",
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "installCommand": "npm install"
 }
