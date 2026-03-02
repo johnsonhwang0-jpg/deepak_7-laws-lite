@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/7-laws-lite/(.*)",
+      "destination": "/$1"
+    }
+  ]
+}
