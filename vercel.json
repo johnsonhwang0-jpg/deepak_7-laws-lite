@@ -1,8 +1,16 @@
 {
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "build",
+  "devCommand": "vite",
+  "installCommand": "npm install",
   "rewrites": [
     {
+      "source": "/7-laws-lite/(.*)",
+      "destination": "/7-laws-lite/index.html"
+    },
+    {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/7-laws-lite/$1"
     }
   ]
 }

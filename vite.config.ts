@@ -51,9 +51,9 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'dist',
+      outDir: 'build',
     },
-    base: '/',
+    base: '/7-laws-lite/',
     server: {
       port: 3000,
       open: true,
